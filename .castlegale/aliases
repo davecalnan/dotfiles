@@ -1,0 +1,9 @@
+# Castlegale
+export CASTLEGALE='/users/davecalnan/Code/work/castlegale-environmental/neptune'
+export CG=$CASTLEGALE
+export CGB="$CASTLEGALE/apps/backend"
+export CGW="$CASTLEGALE/apps/web"
+
+alias cg="cd $CG"
+alias cgb="cd $CGB"
+alias cgw="cd $CGW"

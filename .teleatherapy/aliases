@@ -1,0 +1,29 @@
+# Teleatherapy Aliases
+export TELEATHERAPY='/users/davecalnan/Code/work/teleatherapy'
+export TT=$TELEATHERAPY
+export TTB="$TELEATHERAPY/apps/backend"
+export TTC="$TELEATHERAPY/packages/common"
+export TTI="$TELEATHERAPY/packages/infrastructure"
+export TTM="$TELEATHERAPY/apps/mobile"
+export TTU="$TELEATHERAPY/packages/ui"
+export TTUI="$TELEATHERAPY/packages/ui"
+export TTW="$TELEATHERAPY/apps/web"
+export TTWWW="$TELEATHERAPY/apps/www"
+
+alias tt="cd $TT"
+alias ttb="cd $TTB"
+alias ttc="cd $TTC"
+alias tti="cd $TTI"
+alias ttm="cd $TTM"
+alias ttu="cd $TTU"
+alias ttui="cd $TTUI"
+alias ttw="cd $TTW"
+alias ttwww="cd $TTWWW"
+
+function awstt () {
+    aws --profile=teleatherapy $@
+}
+
+function cdktt () {
+    yarn cdk --profile=teleatherapy $@
+}

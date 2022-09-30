@@ -1,0 +1,7 @@
+alias pa="php artisan"
+alias pam="php artisan migrate"
+alias pamr="php artisan migrate:rollback"
+alias pat="php artisan tinker"
+alias pas="php artisan serve"
+alias vapor="php ./vendor/bin/vapor"
+alias pint="./vendor/bin/pint"

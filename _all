@@ -1,0 +1,3 @@
+source "$(dirname "$0")/.aliases/_all"
+source "$(dirname "$0")/.castlegale/_all"
+source "$(dirname "$0")/.teleatherapy/_all"

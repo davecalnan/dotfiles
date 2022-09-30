@@ -1,0 +1,14 @@
+alias y='yarn'
+alias ya='yarn add'
+alias yad='yarn add --dev'
+alias yr="yarn remove"
+alias yga="yarn global add"
+alias ygr="yarn global remove"
+alias d='yarn dev'
+alias s='yarn start'
+alias b='yarn build'
+alias t='yarn test'
+
+alias scripts="jq '.scripts' package.json"
+alias dependencies="jq '.dependencies' package.json"
+alias devDependencies="jq '.devDependencies' package.json"

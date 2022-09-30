@@ -1,0 +1,13 @@
+alias clipboard='pbcopy'
+alias zshconfig='code ~/.zshrc'
+alias zshconf='code ~/.zshrc'
+alias zshc='code ~/.zshrc'
+alias zshrc='code ~/.zshrc'
+
+function killport () {
+    lsof -i TCP:$1 | grep LISTEN | awk '{print $2}' | xargs kill -9
+}
+
+function ts () {
+    nodemon --ext ts --no-stdin --exec "ts-node --script-mode $1"
+}
