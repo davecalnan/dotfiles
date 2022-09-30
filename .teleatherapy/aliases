@@ -20,6 +20,8 @@ alias ttui="cd $TTUI"
 alias ttw="cd $TTW"
 alias ttwww="cd $TTWWW"
 
+alias ttdev="osascript \"$(dirname "$0")/../.scripts/iterm-split-pane.scpt\" 'cd $TTW && yarn dev' 'cd $TTB && composer dev'"
+
 function awstt () {
     aws --profile=teleatherapy $@
 }
