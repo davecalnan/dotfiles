@@ -1,5 +1,5 @@
 # Teleatherapy Aliases
-export TELEATHERAPY='/users/davecalnan/Code/work/teleatherapy'
+export TELEATHERAPY='/users/davecalnan/Code/teleatherapy/teleatherapy'
 export TT=$TELEATHERAPY
 export TTB="$TELEATHERAPY/apps/backend"
 export TTC="$TELEATHERAPY/packages/common"
