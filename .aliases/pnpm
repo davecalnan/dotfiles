@@ -1,1 +1,2 @@
 alias p='pnpm'
+alias pw='pnpm playwright'
