@@ -8,4 +8,4 @@ alias cg="cd $CG"
 alias cgb="cd $CGB"
 alias cgw="cd $CGW"
 
-alias cgdev="osascript \"$(dirname "$0")/../.scripts/iterm-split-pane.scpt\" 'cd $CGW && yarn dev' 'cd $CGB && php artisan serve'"
+alias cgdev="osascript \"$(dirname "$0")/../.scripts/iterm-split-pane.scpt\" 'cd $CGW && pnpm dev' 'cd $CGB && php artisan serve'"

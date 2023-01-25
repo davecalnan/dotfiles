@@ -1,2 +1,7 @@
 alias p='pnpm'
 alias pw='pnpm playwright'
+
+alias d='pnpm dev'
+alias s='pnpm start'
+alias b='pnpm build'
+alias t='pnpm test'
