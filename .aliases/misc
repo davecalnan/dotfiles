@@ -13,3 +13,7 @@ function killport () {
 function ts () {
     nodemon --ext ts --no-stdin --exec "ts-node --script-mode $1"
 }
+
+function git_loc () {
+    git ls-tree -r main --name-only -- $1 | grep -v anything | grep -v ignored | xargs cloc
+}
