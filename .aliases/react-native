@@ -1,4 +1,4 @@
-alias android="emulator -avd Pixel_5_API_31"
+alias android="emulator -avd Pixel_5_API_33"
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 export ANDROID_HOME=$ANDROID_SDK_ROOT
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
