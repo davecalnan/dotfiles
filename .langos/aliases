@@ -1,0 +1,11 @@
+# Lang OS Aliases
+export LANGOS='/users/davecalnan/Code/langos-hq/langos'
+export LL=$LANGOS
+export LLB="$LANGOS/apps/backend"
+export LLW="$LANGOS/apps/web"
+
+alias ll="cd $LL"
+alias llb="cd $LLB"
+alias llw="cd $LLW"
+
+alias lldev="osascript \"$(dirname "$0")/../.scripts/iterm-split-pane.scpt\" 'cd $LLW && pnpm dev' 'cd $LLB && php artisan serve'"
