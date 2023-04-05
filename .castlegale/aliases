@@ -1,5 +1,5 @@
 # Castlegale
-export CASTLEGALE='/users/davecalnan/Code/work/castlegale-environmental/neptune'
+export CASTLEGALE='/users/davecalnan/Code/castlegale-environmental/neptune'
 export CG=$CASTLEGALE
 export CGB="$CASTLEGALE/apps/backend"
 export CGW="$CASTLEGALE/apps/web"
