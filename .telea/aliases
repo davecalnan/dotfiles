@@ -1,0 +1,23 @@
+# TELEA Aliases
+export TELEA='/users/davecalnan/Code/teleatherapy/telea'
+export TT=$TELEA
+export TTB="$TELEA/apps/backend"
+export TTC="$TELEA/packages/common"
+export TTM="$TELEA/apps/mobile"
+export TTW="$TELEA/apps/web"
+
+alias tt="cd $TT"
+alias ttb="cd $TTB"
+alias ttc="cd $TTC"
+alias ttm="cd $TTM"
+alias ttw="cd $TTW"
+
+alias ttdev="osascript \"$(dirname "$0")/../.scripts/iterm-split-pane.scpt\" 'cd $TTW && pnpm dev' 'cd $TTB && composer dev'"
+
+function awstt () {
+    aws --profile=teleatherapy $@
+}
+
+function cdktt () {
+    yarn cdk --profile=teleatherapy $@
+}
