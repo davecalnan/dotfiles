@@ -1,6 +1,7 @@
 alias pa="php artisan"
 alias pam="php artisan migrate"
 alias pamr="php artisan migrate:rollback"
+alias pamf="php artisan migrate:fresh"
 alias tinker="php artisan tinker"
 alias pat="php artisan test --parallel"
 alias pas="php artisan serve"
