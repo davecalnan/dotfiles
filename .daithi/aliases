@@ -1,0 +1,7 @@
+export DAITHI="/users/davecalnan/Code/daithi"
+export DB="$DAITHI/apps/backend"
+export DM="$DAITHI/apps/mobile"
+
+alias daithi="cd $DAITHI"
+alias db="cd $DB"
+alias dm="cd $DM"
