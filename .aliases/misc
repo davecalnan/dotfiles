@@ -22,3 +22,12 @@ function wip () {
 function git_loc () {
     git ls-tree -r main --name-only -- $1 | grep -v anything | grep -v ignored | xargs cloc
 }
+
+function staging() {
+    local branch=$(git branch --show-current)
+    
+    git checkout staging
+    git reset --hard $branch
+    git push origin staging --force
+    git checkout $branch
+}
